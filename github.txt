@@ -1,0 +1,50 @@
+// how to ignore files from a repository?
+// github has a limit to add 100mb per repository   
+// so we need to ignore some files to avoid this limit
+// we can ignore files by adding them to the .gitignore file
+// this file is used by git to ignore files and directories
+// we can add a pattern to ignore all files with a certain extension
+// for example,:// ignore all files with the .mp3 extension
+// we can add the following line to the .gitignore file
+// *.mp3
+// this will ignore all files with the .mp3 extension
+// we can also ignore specific files by adding their names to the .gitignore file
+// for example,:// ignore the file named "example.mp3"
+// we can add the following line to the .gitignore file
+// example.mp3
+// this will ignore the file named "example.mp3"
+// we can also ignore directories by adding their names to the .gitignore file
+// for example,:// ignore the directory named "music"
+// we can add the following line to the .gitignore file
+// music/
+// this will ignore the directory named "music"
+// we can also ignore subdirectories by adding their names to the .gitignore file
+// for example,:// ignore the subdirectory named "music/subdir"
+// we can add the following line to the .gitignore file
+// music/subdir/
+// this will ignore the subdirectory named "music/subdir"
+// we can also ignore files and directories by using a wildcard
+// for example,:// ignore all files and directories that start with the name "example"
+// we can add the following line to the .gitignore file
+// example*
+// this will ignore all files and directories that start with the name "example"
+// we can also ignore files and directories by using a regular expression
+// for example,:// ignore all files and directories that match the regular expression "example.*"
+// we can add the following line to the .gitignore file
+// example.*
+// this will ignore all files and directories that match the regular expression "example.*"
+// we can also ignore files and directories by using a glob pattern
+// for example,:// ignore all files and directories that match the glob pattern "example/*"
+// we can add the following line to the .gitignore file
+// example/*
+// this will ignore all files and directories that match the glob pattern "example/*"
+// we can also ignore files and directories by using a glob pattern with a wildcard
+// for example,:// ignore all files and directories that match the glob pattern "example/*.*"
+// we can add the following line to the .gitignore file
+// example/**
+// this will ignore all files and directories that match the glob pattern "example/**"
+// we can also ignore files and directories by using a glob pattern with a wildcard and a regular expression
+// for example,:// ignore all files and directories that match the glob pattern "example/*.*"
+// we can add the following line to the .gitignore file
+// example/**
+// this will ignore all files and directories that match the glob pattern "example/**"

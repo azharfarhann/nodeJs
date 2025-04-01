@@ -1,0 +1,21 @@
+{
+  "name": "firstproject",
+  "version": "1.0.0",
+  "description": "myfirstproject",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "uber",
+    "fedex"
+  ],
+  "author": "Azhar",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "figlet": "^1.8.0",
+    "gradient-string": "^3.0.0",
+    "readline-sync": "^1.4.10"
+  }
+}
