@@ -1,8 +1,7 @@
 // FS file system
 
-// by default in nodeJs
-//there is a package which is installed in nodejs
-// npm i fs // dont do /// no need to install it
+// it is a package  installed by default in nodeJs
+// npm i fs //  no need to install it
 
 import fs from "fs"
 
@@ -11,8 +10,9 @@ import fs from "fs"
 // 2nd => human readable format
 // 3rd => arrow function and error
 
-// for reading a file the function is
-// fs.readFile("./azhar.txt", "utf-8", (err, data) => {
+// for reading a file the function with fs is
+
+// fs.readFile("azhar.txt", "utf-8", (err, data) => {
 //     if (err) {
 //         console.log(err);
     
@@ -75,4 +75,3 @@ import fs from "fs"
 //         console.log("Done updated & created a file");
 //     }
 // })
-
